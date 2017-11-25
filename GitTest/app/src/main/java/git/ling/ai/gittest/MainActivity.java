@@ -18,6 +18,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void initView() {
         mBtnTest = findViewById(R.id.btn_test);
+        mBtnTest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 
     private void initData() {
