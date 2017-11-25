@@ -13,9 +13,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+        initData();
     }
 
     private void initView() {
         mBtnTest = findViewById(R.id.btn_test);
+    }
+
+    private void initData() {
+
     }
 }
