@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initView();
         initData();
+        checkPermission();
     }
 
     private void initView() {
@@ -23,4 +24,8 @@ public class MainActivity extends AppCompatActivity {
     private void initData() {
         mBtnTest.clearFocus();
     }
+    private void checkPermission() {
+
+    }
+
 }
