@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     private void initData() {
         mBtnTest.clearFocus();
     }
-
     private void checkPermission() {
 
     }
